@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head">
+          <input id="item" type="text" placeholder="Enter an activity..." />
+          <button id="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+      </header>
+      <div class="list-container">
+        <!--Undone task-->
+        <ul class="todo" id="todo"></ul>
+
+
+        <!--completed tasks-->
+        <ul class="todo" id="completed"></ul>
+        
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
